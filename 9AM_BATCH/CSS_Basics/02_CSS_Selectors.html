@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+        #blue{
+            background-color: blueviolet;
+            box-shadow: 0 0 10px red;
+        }
+        .green{
+            background-color: green;
+            padding: 15px;
+            box-shadow: 0 0 10px black;
+        }
+        .red{
+            background-color: red;
+        }
+        .orange{
+            background-color: orange;
+        }
+
+        input[type='text']{
+            background-color: lightgreen;
+        }
+        input[type='text']:focus{
+            background-color: purple;
+            color: white;
+        }
+        input[type='password']{
+            background-color: lightblue;
+        }
+        input[type='password']:focus{
+            background-color: black;
+            color: white;
+        }
+        input[type='submit']{
+            background-color: red;
+            color: white;
+        }
+        input[type='submit']:hover{
+            background-color: green;
+            color: white;
+            font-size: 25px;
+            font-family: "Comic Sans MS",sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+
+<form>
+    <label>User Name</label>
+    <input type="text">
+    <br>
+    <label>Password</label>
+    <input type="password">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+    <p class="orange red green" id="blue" style="background-color: yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, labore mollitia nihil quia repellendus voluptatem. Aliquam aut culpa delectus deserunt dolor dolorem, doloremque eaque eius iste maxime, natus nihil obcaecati officiis quaerat quisquam quos reiciendis sunt tempora totam ut?</p>
+
+
+
+</body>
+</html>

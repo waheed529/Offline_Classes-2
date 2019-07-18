@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positions</title>
+    <style>
+        body{
+            height: 4000px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            box-shadow: 0 0 5px black;
+        }
+        .box1{
+            background-color: red;
+            position: relative;
+            left: 300px;
+            top: 50px;
+            z-index: 3;
+        }
+        .container{
+            background-color: rgba(0,0,0,0.5);
+            width: 600px;
+            height: 500px;
+            position: relative;
+            left: 350px;
+            z-index: 2;
+
+        }
+        .box2{
+            background-color: green;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+        .box3{
+            background-color: yellow;
+            position: absolute;
+            bottom: 150px;
+            right: 150px;
+        }
+        .box4{
+            background-color: blueviolet;
+            position: fixed;
+            top: 30%;
+            right: 30%;
+            z-index: 1;
+        }
+        .box5{
+            background-color: teal;
+            position: sticky;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box1"></div>
+    <div class="container">
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque ducimus eum fuga itaque maxime molestias natus nesciunt nulla, officiis quis quos sint voluptatibus. Ad adipisci corporis dicta doloremque maiores nemo non officia sapiente tempora voluptatem! Alias aspernatur, consectetur error, eveniet illo maiores nemo odio quae quidem recusandae sit vitae.</p>
+
+
+
+
+</body>
+</html>

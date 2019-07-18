@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS DISPLAY</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        div{
+            padding: 10px;
+            margin: 10px;
+        }
+        h3{
+            background-color: blueviolet;
+            padding: 5px;
+            margin: 5px;
+            color: white;
+            display: inline;
+        }
+        span{
+            background-color: orange;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+        a{
+            background-color: coral;
+            color: black;
+            padding: 5px;
+            margin: 5px;
+            display: block;
+        }
+
+        form{
+            background-color:blueviolet;
+            padding: 15px;
+        }
+        input{
+            display: block;
+            margin: 5px;
+        }
+
+        h1{
+            background-color: orangered;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            display: none;
+        }
+
+        section{
+            background-color: darkslategray;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+        }
+        article{
+            background-color: orange;
+            padding: 15px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- DISPLAY INLINE -->
+    <div>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JavaScript</h3>
+        <h3>JQuery</h3>
+        <h3>Bootstrap</h3>
+    </div>
+
+    <!-- Display Block -->
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span >1. At aut beatae cum cumque dolore exercitationem facere in ipsum itaque, </span>
+            <span >2. iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!</span>
+            <span >3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            At aut beatae cum cumque dolore exercitationem facere in ipsum itaque,
+            iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!
+        </p>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div class="div_block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Careers</a>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div>
+        <form>
+            <input type="text" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- DISPLAY NONE / HIDDEN -->
+    <div>
+        <h1>I am Hidden</h1>
+    </div>
+
+    <!-- DISPLAY INLINE-BLOCK -->
+    <section>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, atque, consequatur cumque delectus dolores dolorum ducimus eligendi eos error illo impedit in minus molestias natus quod sed vel! Accusamus consequuntur eaque exercitationem facilis ipsa odio odit quis repellendus ullam. A aliquid consequuntur culpa illo iste iusto neque nobis sunt ut!</p>
+        </article>
+
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, atque, consequatur cumque delectus dolores dolorum ducimus eligendi eos error illo impedit in minus molestias natus quod sed vel! Accusamus consequuntur eaque exercitationem facilis ipsa odio odit quis repellendus ullam. A aliquid consequuntur culpa illo iste iusto neque nobis sunt ut!</p>
+        </article>
+
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, atque, consequatur cumque delectus dolores dolorum ducimus eligendi eos error illo impedit in minus molestias natus quod sed vel! Accusamus consequuntur eaque exercitationem facilis ipsa odio odit quis repellendus ullam. A aliquid consequuntur culpa illo iste iusto neque nobis sunt ut!</p>
+        </article>
+
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, atque, consequatur cumque delectus dolores dolorum ducimus eligendi eos error illo impedit in minus molestias natus quod sed vel! Accusamus consequuntur eaque exercitationem facilis ipsa odio odit quis repellendus ullam. A aliquid consequuntur culpa illo iste iusto neque nobis sunt ut!</p>
+        </article>
+    </section>
+
+
+</body>
+</html>
